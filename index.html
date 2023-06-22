@@ -1,48 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Sophia Nguyen Portfolio</title>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <header>
-            <div class="group">
-            <h1>My Portfolio</h1>
+        <header> <!--header with navigation links-->
+            <h1>Sophia Nguyen</h1>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            </div>
         </header>
-        <main>
+        <main> <!-- main body-->
             <article>
-                <h2>Sophia Nguyen</h2>
-                <section>
-                    <div>
-                        <p>Web developer from Minneapolis, Minnesota</p>
-                    <img src="/images/sophia-portfolio-picture.jpg"/></div>
+                <h2>Hello! I am Sophia Nguyen</h2>
+                <section class="sections"> <!-- intro section starts here-->
+                    <h3>Sophia</h3>
+                    <div class="group">
+                        <p>Software developer from <strong>Minneapolis, Minnesota</strong></p>
+                    <img src="/images/sophia-portfolio-picture.jpg" alt="image of Sophia Nguyen" style="width:400px; height: 500px;"></div>
                 </section>
-                <section id="About"><h3>About</h3>
-                    <p>Passionte and devoted web developer that enjoys working to collabing with other people.
-                        description that shows your passion for web development and your willingness to work with others
+                <section id="about" class="sections"><h3>About</h3> <!-- about me section-->
+                    <div class="group">
+                    <p class="padding">I love the ability to build something from nothing. Seeing it come to life for people that would use in everyday life.
+                        Passionate developer with the ability to be open-minded and grow to make other things with people in order to create a better product and experience.</p>
                         <hr>
-                        Aside from web developing, I love
-                        <ol>
-                            <li>Music</li>
-                            <li>Traveling</li>
-                            <li>Video Games</li>
-                        </ol>
-                        A music enjoyer that loves to travel and play video games.
-                    </p></section>
-                <section id="Contact"><h3>Contact</h3> 
-                    <p><a href="https://www.linkedin.com/in/sophia-nguyen-297863164/">LinkedIn</a> 
-                        <a href="https://github.com/nguyenscg">Github</a>
-                    </p>
+                        <p>Aside from web developing, I am a music enthusiast that enjoys traveling and playing video games.</p>
+                        </div>
+                </section>
+                <section id="contact" class="sections"> <!-- contact section-->
+                    <h3>Contact</h3>
+                    <p>You can contact me here</p>
+                    <ol>
+                        <li><a href="https://www.linkedin.com/in/sophia-nguyen-297863164/">LinkedIn</a></li>
+                        <li><a href="https://github.com/nguyenscg">Github</a></li>
+                    </ol>
                 </section>
             </article>
         </main>

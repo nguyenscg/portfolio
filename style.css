@@ -1,0 +1,62 @@
+* { /* main overall body */
+    background: #DAF1DE;
+} 
+
+h1 {
+    font-family: "Lucida Handwriting";
+    font-size: 50px;
+    background-color: #235347;
+    color: white;
+}
+
+p, strong {
+    background-color: #235347;
+    color: #ffffff;
+}
+
+h2, h3 {
+    font-family: 'Lucida Handwriting';
+    text-align: center;
+    background-color: #235347;
+    color:white;
+}
+
+a {
+    color: #235347;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #FF91A4;
+    padding: 10px;
+}
+
+a:hover {
+    color: lightpink;
+}
+
+a:active {
+    color: lightblue;
+}
+
+ul, ol {
+    list-style-type: none;
+    background-color: #235347;
+}
+
+li {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.group, .sections {
+    background-color: #235347;
+    padding: 100px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+
+
+header, footer {
+    background-color: #FF91A4;
+    text-align: center;
+    padding: 10px;
+}
