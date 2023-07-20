@@ -1,5 +1,6 @@
 # Sophia Nguyen's Portfolio
-Portfolio is built with HTML and CSS
+## Project Description
+This project is a web portfolio that is built to serve as an online business card. Portfolio is built with HTML and CSS.
 ## Technologies Used
 - HTML
 - CSS
