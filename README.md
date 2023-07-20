@@ -6,4 +6,4 @@ Portfolio is built with HTML and CSS
 - GitHub
 
 ## Preview of Portfolio
-![preview](../portfolio/portfolio-landing-page.png)
+![preview](https://github.com/nguyenscg/portfolio/blob/main/portfolio-landing-page.png)
