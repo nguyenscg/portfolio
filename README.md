@@ -4,3 +4,6 @@ Portfolio is built with HTML and CSS
 - HTML
 - CSS
 - GitHub
+
+## Preview of Portfolio
+![preview](../portfolio/portfolio-landing-page.png)
